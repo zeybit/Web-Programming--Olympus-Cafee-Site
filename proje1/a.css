@@ -1,0 +1,183 @@
+body{
+  background-color: #787772;
+}
+
+header{
+   
+  background-image: url('kafe.png'); /* Arka plan resmi */
+  background-size: cover; /* Resmin ekran boyutuna sığmasını sağlar */
+  height: 300px; /* Header yüksekliği */
+  color: white; /* Başlık metni rengi */
+  text-align: center; /* Başlık metni ortalanır */
+  padding-top: 100px;
+    }
+
+    
+    h2{
+    color: wheat;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    }
+    h3{
+      color:whitesmoke;
+      text-align: center;
+      font-size: x-large;
+      font-family:monospace;
+
+    }
+   h4{
+    color:wheat;
+    font-size: 40px;
+    font-family:monospace ;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+
+   }
+    
+
+  
+ 
+  @media screen and (max-width: 768px) {
+    .menu {
+        display: block;
+    }
+}
+
+p{
+  font-family:monospace;
+  font-size: 16px;
+  color:azure;
+ margin: 15px;
+ padding: 15px;
+ padding-bottom: 5px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+  transition: transform 0.3s;
+  overflow: hidden;
+}
+.box:hover {
+  transform: scale(1.1);
+}
+.box img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.box p {
+  margin: auto;
+  text-align: center;
+  color: #787772;
+}
+table {
+  border-collapse: collapse;
+  width: 95%;
+height: 100%;
+   /* Tablonun genişliği */
+    margin: 0 auto;
+    margin-top: 125px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  color:#ddd;
+  font-size: 16px;
+  min-width: 100px; 
+
+}
+
+th {
+  background-color: #f2f2f2;
+  font-size: 20px;
+  color: #787772;
+}
+
+.spacer {
+  width: 10px;
+}
+     
+.section-wrapper {
+  background-color: rgba(255, 255, 255, 0.5); /* Beyaz arka plan ve %50 opaklık */
+  padding: 50px 0;
+  text-align: center;
+  border-radius: 50px;
+  margin-top: 150px ;
+}
+
+
+
+.games-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.game {
+  position: relative;
+  width: 150px;
+}
+
+.game img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.game img:hover {
+  transform: scale(1.1);
+}
+
+.game-name {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+}
+footer{
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+ text-align: center;
+  border-radius: 35px;
+  margin-top: 50px;
+}
+h6{
+  font-family:monospace;
+  font-size: 25px;
+  color:azure;
+ margin: 15px;
+ padding: 15px;
+ padding-bottom: 5px;
+  text-align: left;
+}
